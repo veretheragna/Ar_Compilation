@@ -279,6 +279,65 @@ body {
   transition: 0.2s ease-in-out; }
 
 /*For Icon section*/
+/*For Filter Section*/
+.dropdown_ArFilter {
+  display: flex;
+  position: relative;
+  width: var(--FilterFrameWidth);
+  height: var(--FilterFrameHeight);
+  flex-flow: column;
+  border-radius: var(--FilterFrameRadius);
+  z-index: 5;
+  box-sizing: border-box; }
+
+.dropdown-button_ArFilter {
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  border-radius: var(--FilterFrameRadius);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: transparent; }
+
+.pic_ArFilter {
+  background-position: center;
+  background-size: cover;
+  background-image: var(--FilterImage); }
+
+/* Hide the Menu Items*/
+.menu_ArFilter {
+  display: none;
+  position: absolute;
+  width: var(--FilterButtonWidth);
+  height: auto;
+  margin-top: 100%;
+  right: 0%;
+  flex-flow: column;
+  border-radius: var(--FilterFrameButtonRadius);
+  z-index: 5;
+  background-color: var(--FilterBackroundColor);
+  border: 2px solid black;
+  padding: var(--FilterButtonPadding); }
+
+.menu-item_ArFilter {
+  margin: 0;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: var(--FilterBackroundColor); }
+
+.menu-item_ArFilter button {
+  border: transparent; }
+
+.menu_ArFilter button:hover {
+  font-weight: bold;
+  font-size: var(--FilterHoverTextSize);
+  background-color: var(--FilterHoverBackroundColor);
+  color: var(--FilterHoverTextColor); }
+
+/*For Filter Section*/
 /*General Styles*/
 /***********************************************************************************************************************************************************************************************************/
 /***********************************************************************************************************************************************************************************************************/
